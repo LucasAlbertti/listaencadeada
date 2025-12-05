@@ -275,18 +275,6 @@ Nome invalido!
 
 ---
 
-## 🛠️ Como Compilar e Executar
-
-```bash
-# Compilação
-gcc -o listaEncadeada main.c
-
-# Execução
-./listaEncadeada
-```
-
----
-
 ## 📝 Resumo Técnico
 
 | Aspecto | Implementação |
@@ -300,6 +288,5 @@ gcc -o listaEncadeada main.c
 
 ---
 
-**Autor**: [Seu Nome]  
-**Data**: Dezembro 2025  
-**Versão**: 1.0
+**Autor**: [Lucas William Albertti]  
+**Data**: 05 de Dezembro 2025  
