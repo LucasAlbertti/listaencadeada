@@ -8,7 +8,7 @@ Implementação de uma estrutura de dados de **lista encadeada simples** com ope
 
 ## 1️⃣ Tipo de Lista Encadeada Utilizada
 
-### **Lista Encadeada Simples (SLL - Single Linked List)**
+### **Lista Encadeada Simples**
 
 A implementação utiliza uma **lista encadeada simples**, onde:
 - Cada nó contém um **dado** (nome) e um **ponteiro** para o próximo nó
@@ -97,22 +97,12 @@ void ordenarSelection(No *lista) {
 3. Troca os valores (não os nós)
 4. Move para a próxima posição
 
-### **Justificativa da Escolha:**
-
-| Critério | Selection Sort | Bubble Sort | Merge Sort |
-|----------|---|---|---|
-| **Complexidade** | O(n²) | O(n²) | O(n log n) |
-| **Simplicidade** | ⭐⭐⭐ | ⭐⭐ | ⭐ |
-| **Trocas** | Mínimas | Muitas | Moderadas |
-| **Uso de Memória** | O(1) | O(1) | O(n) |
-| **Implementação** | Fácil | Muito Fácil | Complexa |
-
 **Por que Selection Sort?**
 - ✅ **Implementação simples** e direta para lista encadeada
 - ✅ **Número reduzido de trocas** (apenas quando encontra menor)
 - ✅ **Estável em memória** (não requer estruturas adicionais)
 - ✅ **Adequado para listas pequenas** (escopo educacional)
-- ⚠️ Não é ótimo para grandes volumes (O(n²)), mas suficiente para o projeto
+- ⚠️ Não é ótimo para grandes volumes, mas suficiente para o projeto
 
 ---
 
@@ -260,18 +250,6 @@ Digite o nome:
 
 Nome invalido!
 ```
-
----
-
-## 📊 Análise de Complexidade
-
-| Operação | Complexidade | Observações |
-|----------|---|---|
-| **Inserção** | O(n) | Percorre até o final para inserir |
-| **Remoção por nome** | O(n) | Busca sequencial |
-| **Remoção FIFO** | O(1) | Remove sempre o primeiro |
-| **Impressão** | O(n) | Percorre todos os elementos |
-| **Ordenação** | O(n²) | Selection Sort |
 
 ---
 
